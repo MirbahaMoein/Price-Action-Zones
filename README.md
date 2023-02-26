@@ -1,5 +1,5 @@
 
-# Price timeseries trend forecast using price-action zones
+# Price time-series trend forecast using price-action zones
 
 A Python Project that forecasts price trends using price-action supply/demand zones for trading pairs in Binance.
 
@@ -7,9 +7,9 @@ A Python Project that forecasts price trends using price-action supply/demand zo
 
 ## Features
 
-- Gets historical price candles from binance exchange API
+- Gets historical price candles from Binance exchange API
 - Generates missing candles using interpolation techniques
-- Generates average volume transferred in trades in every candles
+- Generates average volume transferred in trades in every candle
 - Finds "base" candles: RBR, RBD, DBR, DBD
 - Finds Fresh S/D zones
 - Appends overlapping zones
@@ -17,11 +17,11 @@ A Python Project that forecasts price trends using price-action supply/demand zo
 ## Roadmap
 
 - Find Support/Resistance levels
-- Add a boolean field as a feature for zones' that tells if a zone is formed when a S/R level breaks
+- Add a boolean field as a feature for zones' that tells if a zone is formed when an S/R level breaks
 - Extract more features for zones that can help predict the zone's strength
-- Assign a score to every zone that represents the probability of that zone reactiong to price trend using AI tools
-- Assign that score to candles after the candles that overlap with a zone as a feature for price timeseries forecasting
-- Develop a AI model for forecasting price trend
+- Assign a score to every zone that represents the probability of the price trend reacting to that zone using AI tools
+- Assign that score to candles after the candles that overlap with a zone as a feature for price time-series forecasting
+- Develop an AI model for forecasting price trend
 
 
 ## Installation
