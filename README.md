@@ -34,6 +34,8 @@ Note: This program is only being tested on Windows 10-11 x64, Python 3.11, so:
 cd "PATH/TO/PROGRAMS/MAIN/FOLDER" 
 pip install -r requirements.txt
 ```
+## Examples
+![Chart](https://user-images.githubusercontent.com/90606110/221410992-015786e9-87d3-4fe2-ad13-5e9335a2bb36.jpeg)
 ## Authors
 
 - [@MirbahaMoein](https://www.github.com/MirbahaMoein)
